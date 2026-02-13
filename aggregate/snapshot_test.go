@@ -5,11 +5,11 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/hallgren/eventsourcing"
-	"github.com/hallgren/eventsourcing/aggregate"
-	"github.com/hallgren/eventsourcing/core"
-	"github.com/hallgren/eventsourcing/eventstore/memory"
-	snap "github.com/hallgren/eventsourcing/snapshotstore/memory"
+	"github.com/r23vme/eventsourcing"
+	"github.com/r23vme/eventsourcing/aggregate"
+	"github.com/r23vme/eventsourcing/core"
+	"github.com/r23vme/eventsourcing/eventstore/memory"
+	snap "github.com/r23vme/eventsourcing/snapshotstore/memory"
 )
 
 func createPerson() *Person {

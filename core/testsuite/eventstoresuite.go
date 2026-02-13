@@ -10,7 +10,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hallgren/eventsourcing/core"
+	"github.com/r23vme/eventsourcing/core"
 )
 
 var seededRand = rand.New(rand.NewSource(time.Now().UnixNano()))

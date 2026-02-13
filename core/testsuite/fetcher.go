@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/hallgren/eventsourcing/core"
+	"github.com/r23vme/eventsourcing/core"
 )
 
 func TestFetcher(t *testing.T, es core.EventStore, fetcher core.Fetcher) {

@@ -8,9 +8,9 @@ import (
 	"github.com/testcontainers/testcontainers-go"
 	"github.com/testcontainers/testcontainers-go/wait"
 
-	"github.com/hallgren/eventsourcing/core"
-	"github.com/hallgren/eventsourcing/core/testsuite"
-	es "github.com/hallgren/eventsourcing/eventstore/esdb"
+	"github.com/r23vme/eventsourcing/core"
+	"github.com/r23vme/eventsourcing/core/testsuite"
+	es "github.com/r23vme/eventsourcing/eventstore/esdb"
 )
 
 func TestSuite(t *testing.T) {

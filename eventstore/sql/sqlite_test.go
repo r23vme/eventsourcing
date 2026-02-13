@@ -6,10 +6,10 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/hallgren/eventsourcing/core"
-	"github.com/hallgren/eventsourcing/core/testsuite"
-	"github.com/hallgren/eventsourcing/eventstore/sql"
 	_ "github.com/mattn/go-sqlite3"
+	"github.com/r23vme/eventsourcing/core"
+	"github.com/r23vme/eventsourcing/core/testsuite"
+	"github.com/r23vme/eventsourcing/eventstore/sql"
 )
 
 func TestSuiteSQLite(t *testing.T) {

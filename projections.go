@@ -7,7 +7,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/hallgren/eventsourcing/core"
+	"github.com/r23vme/eventsourcing/core"
 )
 
 type callbackFunc func(e Event) error

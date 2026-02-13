@@ -13,7 +13,7 @@ func New(dbFile string) (*BBolt, error) {
 ### Example of use
 
 ```go
-import "github.com/hallgren/eventsourcing/eventstore/bbolt"
+import "github.com/r23vme/eventsourcing/eventstore/bbolt"
 
 bboltEventStore, err := bbolt.New("bolt.db")
 if err != nil {

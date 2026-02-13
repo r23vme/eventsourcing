@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/hallgren/eventsourcing"
-	"github.com/hallgren/eventsourcing/aggregate"
-	"github.com/hallgren/eventsourcing/eventstore/memory"
-	"github.com/hallgren/eventsourcing/example/order"
+	"github.com/r23vme/eventsourcing"
+	"github.com/r23vme/eventsourcing/aggregate"
+	"github.com/r23vme/eventsourcing/eventstore/memory"
+	"github.com/r23vme/eventsourcing/example/order"
 )
 
 type Order struct {

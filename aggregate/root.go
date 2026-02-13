@@ -4,8 +4,8 @@ import (
 	"reflect"
 	"time"
 
-	"github.com/hallgren/eventsourcing"
-	"github.com/hallgren/eventsourcing/core"
+	"github.com/r23vme/eventsourcing"
+	"github.com/r23vme/eventsourcing/core"
 )
 
 // Root to be included into aggregates to give it the aggregate root behaviors

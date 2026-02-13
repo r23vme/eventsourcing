@@ -8,7 +8,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/hallgren/eventsourcing/core"
+	"github.com/r23vme/eventsourcing/core"
 )
 
 var postgresStm = []string{`CREATE TABLE IF NOT EXISTS events (

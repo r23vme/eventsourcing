@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/hallgren/eventsourcing/core"
+	"github.com/r23vme/eventsourcing/core"
 )
 
 type snapshotstoreFunc = func() (core.SnapshotStore, func(), error)

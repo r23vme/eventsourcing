@@ -2,8 +2,8 @@ package eventsourcing
 
 import (
 	"fmt"
-	"github.com/hallgren/eventsourcing/core"
-	"github.com/hallgren/eventsourcing/internal"
+	"github.com/r23vme/eventsourcing/core"
+	"github.com/r23vme/eventsourcing/internal"
 )
 
 // Iterator to stream events to reduce memory foot print

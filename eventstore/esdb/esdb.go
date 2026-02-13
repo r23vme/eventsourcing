@@ -4,7 +4,7 @@ import (
 	"context"
 
 	"github.com/EventStore/EventStore-Client-Go/v4/esdb"
-	"github.com/hallgren/eventsourcing/core"
+	"github.com/r23vme/eventsourcing/core"
 )
 
 const streamSeparator = "-"

@@ -1,6 +1,6 @@
 package memory
 
-import "github.com/hallgren/eventsourcing/core"
+import "github.com/r23vme/eventsourcing/core"
 
 type iterator struct {
 	events   []core.Event

@@ -3,7 +3,7 @@ package order_test
 import (
 	"testing"
 
-	"github.com/hallgren/eventsourcing/example/order"
+	"github.com/r23vme/eventsourcing/example/order"
 )
 
 func TestCreateOrder(t *testing.T) {

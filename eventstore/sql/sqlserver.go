@@ -8,7 +8,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/hallgren/eventsourcing/core"
+	"github.com/r23vme/eventsourcing/core"
 )
 
 const createTableSQLServer = `IF OBJECT_ID('[events]', 'U') IS NULL

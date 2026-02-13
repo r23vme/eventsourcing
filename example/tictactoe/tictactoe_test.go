@@ -3,7 +3,7 @@ package tictactoe_test
 import (
 	"testing"
 
-	"github.com/hallgren/eventsourcing/example/tictactoe"
+	"github.com/r23vme/eventsourcing/example/tictactoe"
 )
 
 func TestValidMove(t *testing.T) {

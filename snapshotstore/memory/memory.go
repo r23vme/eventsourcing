@@ -3,7 +3,7 @@ package memory
 import (
 	"context"
 
-	"github.com/hallgren/eventsourcing/core"
+	"github.com/r23vme/eventsourcing/core"
 )
 
 type Memory struct {

@@ -4,7 +4,7 @@ import (
 	"reflect"
 	"time"
 
-	"github.com/hallgren/eventsourcing/core"
+	"github.com/r23vme/eventsourcing/core"
 )
 
 // Version is the event version used in event.Version and event.GlobalVersion

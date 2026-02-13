@@ -3,8 +3,8 @@ package tictactoe
 import (
 	"fmt"
 
-	"github.com/hallgren/eventsourcing"
-	"github.com/hallgren/eventsourcing/aggregate"
+	"github.com/r23vme/eventsourcing"
+	"github.com/r23vme/eventsourcing/aggregate"
 )
 
 type Game struct {

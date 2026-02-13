@@ -7,8 +7,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hallgren/eventsourcing"
-	"github.com/hallgren/eventsourcing/aggregate"
+	"github.com/r23vme/eventsourcing"
+	"github.com/r23vme/eventsourcing/aggregate"
 )
 
 // Person aggregate

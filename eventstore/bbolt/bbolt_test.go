@@ -4,9 +4,9 @@ import (
 	"os"
 	"testing"
 
-	"github.com/hallgren/eventsourcing/core"
-	"github.com/hallgren/eventsourcing/core/testsuite"
-	"github.com/hallgren/eventsourcing/eventstore/bbolt"
+	"github.com/r23vme/eventsourcing/core"
+	"github.com/r23vme/eventsourcing/core/testsuite"
+	"github.com/r23vme/eventsourcing/eventstore/bbolt"
 )
 
 func TestEventStoreSuite(t *testing.T) {

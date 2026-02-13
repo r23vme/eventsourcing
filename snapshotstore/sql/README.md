@@ -35,7 +35,7 @@ func NewSQLite(db *sql.DB) (*SQLite, error) {
 
 import (
 	sqldriver "database/sql"
-	"github.com/hallgren/eventsourcing/snapshotstore/sql"
+	"github.com/r23vme/eventsourcing/snapshotstore/sql"
 	_ "github.com/mattn/go-sqlite3"
 )
 
@@ -80,7 +80,7 @@ func NewPostgres(db *sql.DB) (*Postgres, error) {
 import (
 	gosql "database/sql"
 	_ "github.com/lib/pq"
-	"github.com/hallgren/eventsourcing/snapshotstore/sql"
+	"github.com/r23vme/eventsourcing/snapshotstore/sql"
 )
 
 db, err := gosql.Open("postgres", dsn)

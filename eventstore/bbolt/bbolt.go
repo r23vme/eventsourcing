@@ -8,8 +8,9 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/hallgren/eventsourcing/core"
 	"go.etcd.io/bbolt"
+
+	"github.com/r23vme/eventsourcing/core"
 )
 
 const (
@@ -191,7 +192,7 @@ func (e *BBolt) All(start core.Version) core.Fetcher {
 		iter.cursor = cursor
 		iter.startPosition = position(core.Version(start))
 		return &iter, nil
-		//return &iter{tx: tx, cursor: cursor, startPosition: position(core.Version(start))}, nil
+		// return &iter{tx: tx, cursor: cursor, startPosition: position(core.Version(start))}, nil
 	}
 }
 

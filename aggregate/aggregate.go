@@ -6,9 +6,9 @@ import (
 	"fmt"
 	"reflect"
 
-	"github.com/hallgren/eventsourcing"
-	"github.com/hallgren/eventsourcing/core"
-	"github.com/hallgren/eventsourcing/internal"
+	"github.com/r23vme/eventsourcing"
+	"github.com/r23vme/eventsourcing/core"
+	"github.com/r23vme/eventsourcing/internal"
 )
 
 type RegisterFunc = func(events ...interface{})

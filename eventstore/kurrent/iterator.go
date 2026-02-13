@@ -3,8 +3,8 @@ package kurrent
 import (
 	"strings"
 
-	"github.com/hallgren/eventsourcing/core"
 	"github.com/kurrent-io/KurrentDB-Client-Go/kurrentdb"
+	"github.com/r23vme/eventsourcing/core"
 )
 
 type Iterator struct {

@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"math/rand"
 
-	"github.com/hallgren/eventsourcing/aggregate"
-	"github.com/hallgren/eventsourcing/eventstore/memory"
-	"github.com/hallgren/eventsourcing/example/tictactoe"
+	"github.com/r23vme/eventsourcing/aggregate"
+	"github.com/r23vme/eventsourcing/eventstore/memory"
+	"github.com/r23vme/eventsourcing/example/tictactoe"
 )
 
 func main() {

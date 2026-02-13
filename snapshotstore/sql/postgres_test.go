@@ -11,9 +11,9 @@ import (
 	"github.com/testcontainers/testcontainers-go"
 	"github.com/testcontainers/testcontainers-go/wait"
 
-	"github.com/hallgren/eventsourcing/core"
-	"github.com/hallgren/eventsourcing/core/testsuite"
-	"github.com/hallgren/eventsourcing/snapshotstore/sql"
+	"github.com/r23vme/eventsourcing/core"
+	"github.com/r23vme/eventsourcing/core/testsuite"
+	"github.com/r23vme/eventsourcing/snapshotstore/sql"
 )
 
 func TestSuitePostgres(t *testing.T) {

@@ -51,7 +51,7 @@ NewSQLiteSingelWriter(db *sql.DB) (*SQLite, error)
 import (
 	// have to alias the sql package as it use the same name
 	gosql "database/sql"
-	"github.com/hallgren/eventsourcing/eventstore/sql"
+	"github.com/r23vme/eventsourcing/eventstore/sql"
 	// use the sqlite driver from mattn in this example
 	_ "github.com/mattn/go-sqlite3"
 )
@@ -108,7 +108,7 @@ import (
 	
 	// in this example we use the pg postgres driver
 	_ "github.com/lib/pq"
-	"github.com/hallgren/eventsourcing/eventstore/sql"
+	"github.com/r23vme/eventsourcing/eventstore/sql"
 )
 
 db, err := gosql.Open("postgres", dsn)
@@ -179,7 +179,7 @@ import (
 	gosql "database/sql"
 	 // uses the sql server driver from denisenkom
 	_ "github.com/denisenkom/go-mssqldb"
-	"github.com/hallgren/eventsourcing/eventstore/sql"
+	"github.com/r23vme/eventsourcing/eventstore/sql"
 )
 
 db, err := gosql.Open("sqlserver", dsn)

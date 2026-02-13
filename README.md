@@ -1,11 +1,13 @@
 # Overview
 
+This is a fork of https://github.com/r23vme/eventsourcing . Follow them instead, because I intend to fool around with this fork.
+
 This set of modules is a post implementation of [@jen20's](https://github.com/jen20) way of implementing event sourcing. You can find the original blog post [here](https://jen20.dev/post/event-sourcing-in-go/) and github repo [here](https://github.com/jen20/go-event-sourcing-sample).
 
 It's structured in two main parts:
 
-* [Aggregate](https://github.com/hallgren/eventsourcing?tab=readme-ov-file#aggregate) - Model and Load/Save aggregates (write side).
-* [Consuming events](https://github.com/hallgren/eventsourcing?tab=readme-ov-file#projections) - Handle events and build read-models (read side).
+* [Aggregate](https://github.com/r23vme/eventsourcing?tab=readme-ov-file#aggregate) - Model and Load/Save aggregates (write side).
+* [Consuming events](https://github.com/r23vme/eventsourcing?tab=readme-ov-file#projections) - Handle events and build read-models (read side).
 
 ## Event Sourcing
 
@@ -181,13 +183,13 @@ Get(id string, aggregateType string, afterVersion core.Version) (core.Iterator, 
 
 There are four implementations in this repository.
 
-* [SQL](https://github.com/hallgren/eventsourcing/blob/master/eventstore/sql/README.md) - `go get github.com/hallgren/eventsourcing/eventstore/sql`
+* [SQL](https://github.com/r23vme/eventsourcing/blob/master/eventstore/sql/README.md) - `go get github.com/r23vme/eventsourcing/eventstore/sql`
 	* SQLite
 	* Postgres
  	* Microsoft SQL Server 
-* Bolt - `go get github.com/hallgren/eventsourcing/eventstore/bbolt`
-* Event Store DB - `go get github.com/hallgren/eventsourcing/eventstore/esdb`
-* Kurrent DB - `go get github.com/hallgren/eventsourcing/eventstore/kurrent`
+* Bolt - `go get github.com/r23vme/eventsourcing/eventstore/bbolt`
+* Event Store DB - `go get github.com/r23vme/eventsourcing/eventstore/esdb`
+* Kurrent DB - `go get github.com/r23vme/eventsourcing/eventstore/kurrent`
 * RAM Memory - part of the main module
 
 External event stores:
@@ -207,7 +209,7 @@ type EventStore interface {
 }
 ```
 
-The event store needs to import the `github.com/hallgren/eventsourcing/core` module that expose the `core.Event`, `core.Version` and `core.Iterator` types.
+The event store needs to import the `github.com/r23vme/eventsourcing/core` module that expose the `core.Event`, `core.Version` and `core.Iterator` types.
 
 ### Encoder
 
@@ -261,7 +263,7 @@ type SnapshotStore interface {
 
 There are two implementations in this repository.
 
-* [SQL](https://github.com/hallgren/eventsourcing/blob/master/snapshotstore/sql/README.md) - `go get github.com/hallgren/eventsourcing/snapshotstore/sql`
+* [SQL](https://github.com/r23vme/eventsourcing/blob/master/snapshotstore/sql/README.md) - `go get github.com/r23vme/eventsourcing/snapshotstore/sql`
 	* SQLite
 	* Postgres
 * RAM Memory - part of the main module

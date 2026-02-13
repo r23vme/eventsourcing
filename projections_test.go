@@ -8,11 +8,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hallgren/eventsourcing"
-	"github.com/hallgren/eventsourcing/aggregate"
-	"github.com/hallgren/eventsourcing/core"
-	"github.com/hallgren/eventsourcing/eventstore/memory"
-	"github.com/hallgren/eventsourcing/internal"
+	"github.com/r23vme/eventsourcing"
+	"github.com/r23vme/eventsourcing/aggregate"
+	"github.com/r23vme/eventsourcing/core"
+	"github.com/r23vme/eventsourcing/eventstore/memory"
+	"github.com/r23vme/eventsourcing/internal"
 )
 
 // Person aggregate

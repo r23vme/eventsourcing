@@ -4,10 +4,10 @@ import (
 	"context"
 	"testing"
 
-	"github.com/hallgren/eventsourcing"
-	"github.com/hallgren/eventsourcing/aggregate"
-	"github.com/hallgren/eventsourcing/eventstore/memory"
-	ss "github.com/hallgren/eventsourcing/snapshotstore/memory"
+	"github.com/r23vme/eventsourcing"
+	"github.com/r23vme/eventsourcing/aggregate"
+	"github.com/r23vme/eventsourcing/eventstore/memory"
+	ss "github.com/r23vme/eventsourcing/snapshotstore/memory"
 )
 
 func TestSaveAndLoadAggregate(t *testing.T) {

@@ -3,7 +3,7 @@ package eventsourcing
 import (
 	"errors"
 
-	"github.com/hallgren/eventsourcing/internal"
+	"github.com/r23vme/eventsourcing/internal"
 )
 
 var (
