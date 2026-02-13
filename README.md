@@ -1,6 +1,8 @@
 # Overview
 
-This is a fork of https://github.com/r23vme/eventsourcing . Follow them instead, because I intend to fool around with this fork.
+This is a fork of https://github.com/hallgren/eventsourcing . Follow them instead, because I intend to fool around with this fork.
+
+----
 
 This set of modules is a post implementation of [@jen20's](https://github.com/jen20) way of implementing event sourcing. You can find the original blog post [here](https://jen20.dev/post/event-sourcing-in-go/) and github repo [here](https://github.com/jen20/go-event-sourcing-sample).
 
